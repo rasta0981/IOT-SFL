@@ -21,3 +21,7 @@ Sender_espnow.ino
 - Sample code to send DHT11 sensor values for Humidity and temperature to listener ESP32 
 
 ___
+
+## LoRa
+- (RA-3) Environment sensors used to capture temperature, humidity and soil moisture content and transmit via LoRa(Long range)
+
