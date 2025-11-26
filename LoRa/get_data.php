@@ -6,7 +6,7 @@ header("Access-Control-Allow-Origin: *"); // Allows the frontend HTML page to ac
 // Database credentials - Update these with your MySQL details
 $servername = "localhost";
 $username = "root"; // Default XAMPP username
-$password = "test";     // Default XAMPP password (often blank)
+$password = "****";     // Default XAMPP password (often blank)
 $dbname = "sensors"; // The name of the database you created
 
 // Initialize response array
