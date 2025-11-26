@@ -13,9 +13,9 @@
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels (adjust to 32 if you have a 128x32 display)
 
 // --- WiFi and Server Configuration ---
-const char* ssid = "KnowlesCrew";         // Your WiFi network SSID
-const char* password = "BentleyHome@23!"; // Your WiFi network password
-const char* serverName = "http://192.168.1.148/aht/aht.php"; // URL of your PHP script
+const char* ssid = "*******";         // Your WiFi network SSID
+const char* password = "*******!"; // Your WiFi network password
+const char* serverName = "http://localhost/aht/aht.php"; // URL of your PHP script
 //const char* serverName = "http://localhost/aht/get_data.php"; // URL of your PHP 
 
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
