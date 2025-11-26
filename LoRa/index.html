@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environment Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .dashboard-container { background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #333; }
+        .data-card { margin: 20px 0; padding: 15px; border-left: 5px solid; border-radius: 5px; }
+        .temp-card { border-color: #e74c3c; background-color: #fbedeb; }
+        .hum-card { border-color: #3498db; background-color: #ebf5fb; }
+        .mos-card { border-color: #56994e; background-color: #d4f2d0; }
+        .value { font-size: 48px; font-weight: bold; }
+        #status { margin-top: 20px; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Sensor Data Dashboard</h1>
+        <div id="status">Loading data...</div>
+
+        <div class="data-card temp-card">
+            <p>Temperature</p>
+            <div class="value" id="temperatureValue">--&#176;F</div>
+        </div>
+
+        <div class="data-card hum-card">
+            <p>Humidity</p>
+            <div class="value" id="humidityValue">--%</div>
+        </div>
+	
+	<div class="data-card mos-card">
+            <p>Moisture</p>
+            <div class="value" id="moistureValue">--%</div>
+        </div>
+        
+        <button onclick="fetchSensorData()">Refresh Data</button>
+    </div>
+
+    <!-- Link the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
