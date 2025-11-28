@@ -3,7 +3,6 @@ function fetchSensorData() {
     // *** CRITICAL: Update this URL to point to your actual backend script location. ***
     // If running on XAMPP, this might be: 
     // const apiUrl = 'http://localhost/aht/get_data.php'; 
-    // const apiUrl = 'aht.php'; 
        const apiUrl = 'get_data.php'; 
 
     const statusElement = document.getElementById('status');
@@ -21,7 +20,7 @@ function fetchSensorData() {
             // Check if the backend returned an expected structure and status
             if (data.status === 'success' && data.data) {
                 // Update the HTML elements with the received data
-                document.getElementById('temperatureValue').textContent = `${data.data.temperature}°F`;
+                document.getElementById('temperatureValue').textContent = `${data.data.temperature}Â°F`;
                 document.getElementById('humidityValue').textContent = `${data.data.humidity}%`;
                 document.getElementById('moistureValue').textContent = `${data.data.moisture}%`;
                 statusElement.textContent = 'Data updated successfully: ' + new Date().toLocaleTimeString();
