@@ -1,7 +1,7 @@
 # IOT-SFL
 SkyFire LABs demo projects.
 
-Useful code for quickly standing up a fully functional webserver interface for IOT devices.
+Useful code to quickly stand up a fully functional IOT nodes and interfaces.
 
 ___
 ## Devices
