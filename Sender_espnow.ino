@@ -1,12 +1,3 @@
-/*
-  ESP-NOW Demo - Transmit
-  esp-now-demo-xmit.ino
-  Sends data to Responder
-  
-  DroneBot Workshop 2022
-  https://dronebotworkshop.com
-*/
-
 // Include Libraries
 #include <esp_now.h>
 #include <WiFi.h>
