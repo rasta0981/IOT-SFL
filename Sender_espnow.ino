@@ -111,7 +111,7 @@ void loop() {
   // bool_value = !bool_value;
   
   // Format structured data
-  strcpy(myData.a, "Rasta Central Hub!");
+  strcpy(myData.a, "Central Hub!");
   myData.b = fresult;
   myData.c = humidity;
  // myData.d = bool_value;
