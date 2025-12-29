@@ -30,7 +30,7 @@ const char index_html[] PROGMEM = R"raw(
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Knowles Soil Moisture</title>
+  <title>Soil Moisture</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: sans-serif; text-align: center; background-color: #4B5320;}
@@ -38,7 +38,7 @@ const char index_html[] PROGMEM = R"raw(
   </style>
 </head>
 <body>
-  <h1>Knowles_Tomato Soil Sensor</h1>
+  <h1>Tomato Soil Sensor</h1>
   <div class="moisture-display">
     Moisture: <span id="moistureValue"></span>%
   </div>
