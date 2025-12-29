@@ -1,12 +1,3 @@
-/*
-  ESP-NOW Demo - Receive
-  esp-now-demo-rcv.ino
-  Reads data from Initiator
-  
-  DroneBot Workshop 2022
-  https://dronebotworkshop.com
-*/
-
 // Include Libraries
 #include <esp_now.h>
 #include <WiFi.h>
